@@ -33,7 +33,7 @@ const WeatherTemperature = ({ temperature, weatherState }) => (
             getWeatherIcon(weatherState)
         }
         <span className="temperature">{`${temperature}`}</span>
-        <span className="temperature">{` C°`}</span></div>
+        <span className="temperature">{`C°`}</span></div>
 );
 
 WeatherTemperature.prototype = {
